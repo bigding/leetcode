@@ -3,7 +3,7 @@
     ***introduce:二叉树前序遍历,不使用递归
  *******/
 import java.util.*;
-public class binaryTreePreorderTraverdal_144{
+public class binaryTreePreorderTraversal_144{
     public List<Integer> preorderTraversal(TreeNode root){
         List<Integer> list = new ArrayList<Integer>();
         LinkedList<TreeNode> stack = new LinkedList<TreeNode>();
@@ -29,7 +29,7 @@ public class binaryTreePreorderTraverdal_144{
         TreeNode rightleftnode = new TreeNode(3);
         root.right = rightnode;
         rightnode.left = rightleftnode;
-        binaryTreePreorderTraverdal_144 bina = new binaryTreePreorderTraverdal_144();
+        binaryTreePreorderTraversal_144 bina = new binaryTreePreorderTraversal_144();
         list = bina.preorderTraversal(root);
         Iterator<Integer> iterator = list.iterator();
         while(iterator.hasNext()){
