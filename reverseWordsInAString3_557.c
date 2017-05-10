@@ -21,8 +21,9 @@ void reverse(char *arr){
 }
 
 char* reverseWords(char* s){
-    char tmp[100];
-    char arr[1000];
+    //需要将数组定义的大一点,不然leetcode测试用例会溢出
+    char tmp[1000];
+    char arr[10000];
     int i,num = 0;
     char *out = arr;
     out[0] = '\0';
@@ -38,7 +39,6 @@ char* reverseWords(char* s){
             num = 0;
         }
         else if(s[i] == '\0'){
-            printf("%d\n",num);
             tmp[num] = '\0';
             reverse(tmp);
             strcat(out,tmp);
@@ -50,7 +50,7 @@ char* reverseWords(char* s){
 }
 
 int main(){
-    char arr[] = "Let's take LeetCode contest abcd efg higk lmn opqrs tuves y23@#z 3434@#(&9734 0(&)())";
+    char arr[] = "hello world";
     char *words = arr;
     int i ;
 //    reverse(words);
