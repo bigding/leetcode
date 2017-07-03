@@ -19,14 +19,10 @@ public class PartitionEqualSubSetSum_416{
             }
         }
         boolean num = f(0,sum/2, nums, tip);
-        System.out.println(num);
-        System.out.println();
-        System.out.println();
         for(int i = 0; i < tip.length; i++){
             for(int j = 0; j < tip[0].length; j++){
                 System.out.print(tip[i][j]+"\t");
             }
-            System.out.println();
         }
         return num;
     }
@@ -40,7 +36,6 @@ public class PartitionEqualSubSetSum_416{
         if(tip[n][sum] == -1){
             boolean status = true;
             for(int i = n; i < nums.length; i++){
-                System.out.println(i+"\t"+sum+"\t"+nums[i]);
                 status = f(i + 1, sum - nums[i], nums, tip);
                 if(status == true){
                     break;
