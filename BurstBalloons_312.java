@@ -15,9 +15,9 @@ public class BurstBalloons_312{
             tmp[i] = nums[i-1];
         }
         tmp[0] = tmp[tmp.length-1] = 1;
-            return f(0, nums.length + 1, tmp, tip);
-        }
-        int f(int m, int n, int[] nums, int[][] tip){
+        return f(0, nums.length + 1, tmp, tip);
+}
+int f(int m, int n, int[] nums, int[][] tip){
         if(n - m == 1){
             return 0;
         }
