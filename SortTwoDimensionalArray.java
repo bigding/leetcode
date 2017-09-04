@@ -1,6 +1,6 @@
 /*******
     ***created by bigding at 2017年06月21日 星期三 14时08分04秒
-    ***introduce:
+    ***introduce:对二位数组进行排序，两次快排实现
  *******/
 
 public class SortTwoDimensionalArray{
