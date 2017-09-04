@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+public class GenerateParentheses_22 {
     public List<String> generateParenthesis(int n){
         LinkedList<String>  list  = new LinkedList<String>();
         compute(n, 0, 0,0, "", list);
