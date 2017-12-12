@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveBoses_546.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RemoveBoses_546.java">
+      <file leaf-file-name="HouseRobber2_213.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HouseRobber2_213.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -54,6 +54,9 @@
         <option value="$PROJECT_DIR$/src/MaximumLengthOfRepeatedSubarray_718.java" />
         <option value="$PROJECT_DIR$/src/OnesAndZeroes_474.java" />
         <option value="$PROJECT_DIR$/src/SplitArrayLargestSum_410.java" />
+        <option value="$PROJECT_DIR$/src/RemoveBoses_546.java" />
+        <option value="$PROJECT_DIR$/src/Triangle_120.java" />
+        <option value="$PROJECT_DIR$/src/HouseRobber2_213.java" />
       </list>
     </option>
   </component>
@@ -128,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SplitArrayLargestSum_410">
+  <component name="RunManager" selected="Application.RemoveBoses_546">
     <configuration name="DeleteAndEarn_740" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DeleteAndEarn_740" />
@@ -157,9 +160,9 @@
       <module name="codes" />
       <envs />
     </configuration>
-    <configuration name="MaximumSumOf3Non_OverlappingSubArrays_689" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OnesAndZeroes_474" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MaximumSumOf3Non_OverlappingSubArrays_689" />
+      <option name="MAIN_CLASS_NAME" value="OnesAndZeroes_474" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -171,9 +174,9 @@
       <module name="codes" />
       <envs />
     </configuration>
-    <configuration name="OnesAndZeroes_474" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveBoses_546" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="OnesAndZeroes_474" />
+      <option name="MAIN_CLASS_NAME" value="RemoveBoses_546" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -281,19 +284,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MaximumSumOf3Non_OverlappingSubArrays_689" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DeleteAndEarn_740" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray_718" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OnesAndZeroes_474" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SplitArrayLargestSum_410" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DeleteAndEarn_740" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray_718" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OnesAndZeroes_474" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SplitArrayLargestSum_410" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RemoveBoses_546" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SplitArrayLargestSum_410" />
-        <item index="1" class="java.lang.String" itemvalue="Application.OnesAndZeroes_474" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray_718" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DeleteAndEarn_740" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaximumSumOf3Non_OverlappingSubArrays_689" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RemoveBoses_546" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SplitArrayLargestSum_410" />
+        <item index="2" class="java.lang.String" itemvalue="Application.OnesAndZeroes_474" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray_718" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DeleteAndEarn_740" />
       </list>
     </recent_temporary>
   </component>
@@ -310,12 +313,12 @@
       <workItem from="1512033140994" duration="20864000" />
       <workItem from="1512385481766" duration="5618000" />
       <workItem from="1512626654236" duration="7637000" />
-      <workItem from="1512957572265" duration="30902000" />
+      <workItem from="1512957572265" duration="37239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65021000" />
+    <option name="totallyTimeSpent" value="71358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -507,8 +510,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveBoses_546.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Triangle_120.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HouseRobber2_213.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding />
         </state>
       </provider>
