@@ -4,7 +4,6 @@ public class MapSum {
     /**
      *  677. Map Sum Pairs
      */
-
     HashMap<String, Integer> map = new HashMap<>();
 
     public void insert(String key, int val) {
